@@ -1,0 +1,100 @@
+.default {
+  padding: 8px 16px;
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3f3f3f;
+  font-family: Noto Sans JP;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  &:hover,
+  &:focus {
+    background: #aeaeae;
+  }
+}
+
+.outline {
+  background: #ffffff;
+  color: #3d5afe;
+  border: 1px solid #3d5afe;
+  &:hover,
+  &:focus {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.text {
+  color: #3d5afe;
+  background: none;
+  box-shadow: none;
+  &:hover,
+  &:focus {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+
+
+.startIcon {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.endIcon {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.sizeSm {
+  padding: 5px 10px;
+}
+
+.sizeLg {
+  padding: 11px 22px;
+}
+
+.colorPrimary {
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    background: #0039cb;
+  }
+}
+
+.colorSecondary {
+  background: #455a64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    background: #1c313a;
+  }
+}
+
+.colorDanger {
+  background: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    background: #9a0007;
+  }
+}
+
+.disableShadow {
+  box-shadow: none;
+}
+
+.disabled {
+  box-shadow: none;
+  color: #9e9e9e;
+  pointer-events: none;
+}
